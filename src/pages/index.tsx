@@ -25,6 +25,7 @@ const CreatePostWizard = () => {
         className="rounded-full"
         width={56}
         height={56}
+        priority
       />
       <input
         type="text"
@@ -47,6 +48,7 @@ const PostView = (props: PostWithUser) => {
         className="rounded-full"
         width={56}
         height={56}
+        priority
       />
       <div className="flex flex-col">
         <div className="flex text-slate-300">
